@@ -1,0 +1,9 @@
+model,published_ifc_file_size,published_ifc_instances,published_class_labels,published_source_category,source_reference,redistribution,notes
+Institute,10.9 MB,147712,189,KIT,"Zhu et al. (2023), Table 2",not included,rights not verified
+Smiley,6.1 MB,110176,168,KIT,"Zhu et al. (2023), Table 2",not included,rights not verified
+House,2.6 MB,44249,189,KIT,"Zhu et al. (2023), Table 2",not included,rights not verified
+Bridge 1,70.0 KB,986,101,Project,"Zhu et al. (2023), Table 2",not included,source file redistribution rights not established
+Bridge 2,845.0 KB,13093,109,Project,"Zhu et al. (2023), Table 2",not included,source file redistribution rights not established
+Hospital Parking,14.3 MB,249096,139,OIMR,"Zhu et al. (2023), Table 2",not included,rights not verified
+KIT Bridge,1.8 MB,27149,88,KIT,"Zhu et al. (2023), Table 2",not included,rights not verified
+Revit Sample,27.2 MB,535395,180,Revit,"Zhu et al. (2023), Table 2",not included,rights not verified

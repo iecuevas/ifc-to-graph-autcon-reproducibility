@@ -1,0 +1,9 @@
+model,proposed_mean_seconds,proposed_sd_seconds,proposed_cv_percent,published_ifc_graph_seconds,published_baseline_div_proposed_mean_ratio
+Institute,44.6667,6.7644,15.1442,20844,466.6569
+Smiley,26.0986,4.1751,15.9976,7710,295.4177
+House,10.4867,1.3543,12.9148,1798,171.4556
+Bridge 1,0.8068,0.2743,33.9945,25,30.9874
+Bridge 2,4.0754,0.2148,5.2709,339,83.1812
+Hospital Parking,55.2789,8.5525,15.4715,28824,521.4288
+KIT Bridge,5.8602,0.6194,10.5696,538,91.8064
+Revit Sample,122.153,4.7444,3.884,133604,1093.7435

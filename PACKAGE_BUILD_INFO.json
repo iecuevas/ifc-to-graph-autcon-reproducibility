@@ -1,0 +1,18 @@
+{
+  "package_status": "private_repository_ready",
+  "source_zip": "arencox-ia-master.zip",
+  "source_zip_sha256": "06552f39640806afc1d88651252454fd84eb1665a45b005a2dcf8ba98ab93bab",
+  "source_commit": "b7c821ec50f8be67e3cd82ca08dd67c707701e55",
+  "target_repository": "https://github.com/iecuevas/ifc-to-graph-autcon-reproducibility",
+  "preserved_source_files": [
+    "src/core/logger.py",
+    "src/core/neo4j_driver.py",
+    "src/core/timer.py",
+    "src/ingest/ifc_graph/graph_builder.py"
+  ],
+  "raw_timing_records_in_source_snapshot": false,
+  "python_version_reconciled": "3.12",
+  "schema_reset_claim_reconciled": true,
+  "manuscript_reset_wording": "graph-data clearing; no claim that indexes/constraints were dropped between runs",
+  "upload_scope": "private GitHub repository staging"
+}

@@ -1,0 +1,4 @@
+# Minimal dependencies imported by the preserved IFC-to-Graph conversion code.
+# Versions match the revised manuscript / source snapshot where directly specified.
+ifcopenshell==0.8.0
+neo4j==5.28.1
