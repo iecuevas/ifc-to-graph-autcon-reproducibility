@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated software release and research article."
+title: "IFC-to-Graph AUTCON reproducibility package"
+type: software
+
+authors:
+  - family-names: "Cuevas"
+    given-names: "Ignacio"
+    affiliation: "Pontifical Catholic University of Chile"
+
+  - family-names: "Lobo"
+    given-names: "Sebastián"
+    affiliation: "Pontifical Catholic University of Chile"
+
+  - family-names: "Neyem"
+    given-names: "Andrés"
+    affiliation: "Pontifical Catholic University of Chile"
+
+  - family-names: "Mourgues"
+    given-names: "Claudio"
+    affiliation: "Pontifical Catholic University of Chile"
+
+repository-code: "https://github.com/iecuevas/ifc-to-graph-autcon-reproducibility"
+
+version: "1.0.0"
+
+keywords:
+  - BIM
+  - IFC
+  - IFC-to-Graph
+  - Neo4j
+  - graph database
+  - reproducibility
+
+abstract: >
+  Reproducibility package associated with manuscript AUTCON-D-26-04369,
+  "Optimized IFC-to-Graph Conversion: Reducing the Performance Barrier to
+  Graph-Based BIM Data Representation". The package contains an audited
+  snapshot of the IFC-to-Graph conversion and Neo4j persistence implementation,
+  together with revision-added reproducibility documentation, helper scripts,
+  benchmark metadata, and reported aggregate experimental results.
