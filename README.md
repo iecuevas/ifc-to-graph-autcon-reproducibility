@@ -109,6 +109,36 @@ The eight benchmark IFC binaries are not redistributed in this staging package b
 
 The supplied source snapshot contains no recoverable file with the 40 individual timing observations implied by 8 models x 5 runs. Raw observations are therefore not reconstructed. Only the reported aggregate statistics are provided.
 
+## Authorship and source attribution
+
+This repository accompanies the manuscript:
+
+**“Optimized IFC-to-Graph Conversion: Reducing the Performance Barrier to Graph-Based BIM Data Representation”**
+
+The authors of the associated manuscript and reproducibility package are:
+
+- Ignacio Cuevas, Pontifical Catholic University of Chile
+- Sebastián Lobo, Pontifical Catholic University of Chile
+- Andrés Neyem, Pontifical Catholic University of Chile
+- Claudio Mourgues, Pontifical Catholic University of Chile
+
+Ignacio Cuevas is the corresponding author of the associated manuscript.
+
+### Source-code attribution
+
+The original IFC-to-Graph implementation preserved in this repository was developed by **Sebastián Lobo** within the institutional `arencox-ia` project.
+
+The following core implementation files are preserved from the audited source snapshot:
+
+- `src/ingest/ifc_graph/graph_builder.py`
+- `src/core/neo4j_driver.py`
+- `src/core/logger.py`
+- `src/core/timer.py`
+
+The remaining documentation, provenance records, benchmark metadata, results summaries, packaging files, and reproducibility helper scripts were assembled or added for the major-revision reproducibility package associated with AUTCON-D-26-04369.
+
+This repository is intentionally limited to the code and supporting material required to document and reproduce the IFC-to-Graph workflow evaluated in the article.
+
 ## Citation and license
 
 A software license and definitive software-author/contributor list have **not** been assigned because the supplied institutional snapshot contains no license file and publication rights/attribution require author-team approval. `CITATION.cff.template` is therefore a template and must be replaced by a final `CITATION.cff` before public release.
