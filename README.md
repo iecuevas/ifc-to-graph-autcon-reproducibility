@@ -1,6 +1,7 @@
 # IFC-to-Graph AUTCON reproducibility package
 
-> **Private-repository staging package.** This repository supports the major revision of manuscript **AUTCON-D-26-04369**, *Optimized IFC-to-Graph Conversion: Reducing the Performance Barrier to Graph-Based BIM Data Representation*. The package is ready to be uploaded to the private GitHub repository `iecuevas/ifc-to-graph-autcon-reproducibility`. Keep the repository **Private** until the remaining publication-rights, attribution, license, and archival-release items in `PREPUBLICATION_CHECKLIST.md` are resolved.
+> **Private-repository staging package.** This repository supports the major revision of manuscript **AUTCON-D-26-04369**, *Optimized IFC-to-Graph Conversion: Reducing the Performance Barrier to Graph-Based BIM Data Representation*. The package is ready to be uploaded to the private GitHub repository `iecuevas/ifc-to-graph-autcon-reproducibility`. Keep the repository Private until the remaining publication-rights, license,
+and archival-release items in PREPUBLICATION_CHECKLIST.md are resolved.
 
 ## Scope
 
@@ -141,6 +142,17 @@ This repository is intentionally limited to the code and supporting material req
 
 ## Citation and license
 
-A software license and definitive software-author/contributor list have **not** been assigned because the supplied institutional snapshot contains no license file and publication rights/attribution require author-team approval. `CITATION.cff.template` is therefore a template and must be replaced by a final `CITATION.cff` before public release.
+Citation metadata for this reproducibility package are provided in `CITATION.cff`.
 
-The repository may now be populated while **Private**. Do not change it to **Public** until the remaining blocking items in `PREPUBLICATION_CHECKLIST.md` are resolved and a final secret/provenance audit passes.
+The associated manuscript and reproducibility package are authored by Ignacio Cuevas, Sebastián Lobo, Andrés Neyem, and Claudio Mourgues. The original IFC-to-Graph implementation preserved in this repository was developed by Sebastián Lobo, as stated in the source-code attribution section above.
+
+A software license has not yet been assigned. The preserved implementation originates from an institutional project, and public-release authorization and licensing must be confirmed before the repository is made Public.
+
+Until that authorization is resolved, this repository must remain **Private**.
+
+After public-release authorization is confirmed, the repository will be finalized by:
+1. assigning the approved software license, if applicable;
+2. removing private staging and prepublication-control files;
+3. creating the journal-revision release;
+4. archiving that release with a persistent identifier; and
+5. inserting the final repository URL, release tag, and archival DOI into the manuscript and Response to Reviewers.
