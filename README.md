@@ -140,19 +140,20 @@ The remaining documentation, provenance records, benchmark metadata, results sum
 
 This repository is intentionally limited to the code and supporting material required to document and reproduce the IFC-to-Graph workflow evaluated in the article.
 
-## Citation and license
+## Citation and licensing status
 
 Citation metadata for this reproducibility package are provided in `CITATION.cff`.
 
 The associated manuscript and reproducibility package are authored by Ignacio Cuevas, Sebastián Lobo, Andrés Neyem, and Claudio Mourgues. The original IFC-to-Graph implementation preserved in this repository was developed by Sebastián Lobo, as stated in the source-code attribution section above.
 
-A software license has not yet been assigned. The preserved implementation originates from an institutional project, and public-release authorization and licensing must be confirmed before the repository is made Public.
+No open-source software license has been assigned to the preserved implementation. Accordingly, this repository does not claim that the included source code is released under MIT, Apache, GPL, or any other open-source license.
 
-Until that authorization is resolved, this repository must remain **Private**.
+The repository is provided as a reproducibility and transparency package associated with manuscript AUTCON-D-26-04369. Public availability of the repository does not imply that an open-source license has been granted.
+
+Before the repository is made Public, authorization to publicly disclose the preserved implementation must be confirmed by the relevant author/research team. If no open-source license is subsequently authorized, the repository will remain publicly accessible without an open-source license.
 
 After public-release authorization is confirmed, the repository will be finalized by:
-1. assigning the approved software license, if applicable;
-2. removing private staging and prepublication-control files;
-3. creating the journal-revision release;
-4. archiving that release with a persistent identifier; and
-5. inserting the final repository URL, release tag, and archival DOI into the manuscript and Response to Reviewers.
+1. performing a final provenance and secret audit;
+2. creating the journal-revision release;
+3. archiving that release with a persistent identifier; and
+4. inserting the final repository URL, release tag, and archival DOI into the manuscript and Response to Reviewers.
