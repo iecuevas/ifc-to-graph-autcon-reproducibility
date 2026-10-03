@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local logs and outputs
+debug.log
+*.log
+*.tmp
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Benchmark model files are intentionally not included until redistribution rights are verified
+benchmarks/models/
