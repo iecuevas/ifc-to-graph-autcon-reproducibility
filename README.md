@@ -49,12 +49,15 @@ The commit above is the exact snapshot audited during revision. The supplied arc
 
 The source snapshot consistently identifies **Python 3.12** (`.python-version = 3.12`; original project configuration requires Python `>=3.12`). The revised manuscript has been reconciled to report Python 3.12 rather than the previously stated 3.14.
 
-Minimal Python dependencies used by the preserved conversion code are:
+
+The recorded study environment identifies IfcOpenShell 0.8.0 and Neo4j Python Driver 5.28.1. For current reproduction with Python 3.12, the dependency set validated by the end-to-end smoke test is:
 
 ```text
-ifcopenshell==0.8.0
+ifcopenshell==0.8.1
 neo4j==5.28.1
 ```
+
+The preserved IFC-to-Graph implementation itself was not modified. The smoke test confirmed successful IFC-to-Neo4j conversion using IfcOpenShell 0.8.1.
 
 The preserved graph builder also requires an operational Neo4j database with APOC available because it calls APOC procedures for dynamic labels, batching, and relationship creation. The reported study environment additionally records Neo4j Desktop 2.0.5 and APOC 2025.10.1-core. The separate underlying Neo4j DBMS/server version is not recoverable from the supplied materials and is therefore not invented in this package.
 
@@ -72,7 +75,7 @@ pip install -r requirements.txt
 ```
 
 3. Start Neo4j and ensure APOC is installed/enabled.
-4. Copy `.env.example` values into your local environment and set your own Neo4j password. Do not commit real credentials.
+4. 4. Set `NEO4J_URI`, `NEO4J_USER`, and `NEO4J_PASSWORD` as environment variables using the names shown in `.env.example`. The helper reads these variables from the process environment and does not automatically load a `.env` file. Do not commit real credentials.
 5. Run a conversion:
 
 ```bash
