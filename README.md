@@ -1,7 +1,6 @@
 # IFC-to-Graph AUTCON reproducibility package
 
-> **Private-repository staging package.** This repository supports the major revision of manuscript **AUTCON-D-26-04369**, *Optimized IFC-to-Graph Conversion: Reducing the Performance Barrier to Graph-Based BIM Data Representation*. The package is ready to be uploaded to the private GitHub repository `iecuevas/ifc-to-graph-autcon-reproducibility`. Keep the repository Private until the remaining publication-rights, license,
-and archival-release items in PREPUBLICATION_CHECKLIST.md are resolved.
+> Reproducibility package supporting the major revision of manuscript AUTCON-D-26-04369, *Optimized IFC-to-Graph Conversion: Reducing the Performance Barrier to Graph-Based BIM Data Representation*. This repository provides the audited IFC-to-Graph implementation and the supporting material required to document and reproduce the workflow evaluated in the manuscript.
 
 ## Scope
 
@@ -106,7 +105,7 @@ The baseline values originate from Zhu, Wu, and Lei (2023), *IFC-graph for facil
 
 ## Benchmark files and raw timing records
 
-The eight benchmark IFC binaries are not redistributed in this staging package because redistribution rights have not yet been verified. `benchmarks/model_manifest.csv` provides the paper identifiers and known metadata without claiming file redistribution rights.
+The eight benchmark IFC binaries are not redistributed in this repository because redistribution rights have not been verified. `benchmarks/model_manifest.csv` provides the paper identifiers and known metadata without claiming file redistribution rights.
 
 The supplied source snapshot contains no recoverable file with the 40 individual timing observations implied by 8 models x 5 runs. Raw observations are therefore not reconstructed. Only the reported aggregate statistics are provided.
 
@@ -149,11 +148,3 @@ The associated manuscript and reproducibility package are authored by Ignacio Cu
 No open-source software license has been assigned to the preserved implementation. Accordingly, this repository does not claim that the included source code is released under MIT, Apache, GPL, or any other open-source license.
 
 The repository is provided as a reproducibility and transparency package associated with manuscript AUTCON-D-26-04369. Public availability of the repository does not imply that an open-source license has been granted.
-
-Before the repository is made Public, authorization to publicly disclose the preserved implementation must be confirmed by the relevant author/research team. If no open-source license is subsequently authorized, the repository will remain publicly accessible without an open-source license.
-
-After public-release authorization is confirmed, the repository will be finalized by:
-1. performing a final provenance and secret audit;
-2. creating the journal-revision release;
-3. archiving that release with a persistent identifier; and
-4. inserting the final repository URL, release tag, and archival DOI into the manuscript and Response to Reviewers.
