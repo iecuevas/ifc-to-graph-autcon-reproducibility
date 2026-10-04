@@ -1,4 +1,6 @@
 # Minimal dependencies imported by the preserved IFC-to-Graph conversion code.
-# Versions match the revised manuscript / source snapshot where directly specified.
-ifcopenshell==0.8.0
+# Neo4j Driver 5.28.1 matches the recorded study environment.
+# IfcOpenShell 0.8.1 is the tested current reproduction dependency.
+# The recorded historical study environment used IfcOpenShell 0.8.0.
+ifcopenshell==0.8.1
 neo4j==5.28.1
