@@ -22,8 +22,6 @@ authors:
 
 repository-code: "https://github.com/iecuevas/ifc-to-graph-autcon-reproducibility"
 
-version: "1.0.0"
-
 keywords:
   - BIM
   - IFC
